@@ -1,11 +1,6 @@
 interface Animal
 {
 	void Sound(String x);
-  
-	default void normalFun()
-	{
-	System.out.println("Hello");
-	}
 }
 
 class Dog implements Animal{
