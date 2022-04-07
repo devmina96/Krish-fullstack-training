@@ -1,0 +1,13 @@
+interface Animal
+{
+	void Sound(String x);
+}
+
+class Test
+{
+	public static void main(String args[])
+	{
+		Animal na = (String x)->System.out.println(x);
+		na.Sound("Bark");
+	}
+}
