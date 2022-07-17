@@ -1,0 +1,7 @@
+spring:
+  jta:
+    atomikos:
+      properties:
+        service:
+          greeting: Hello from service2
+          id: 123456789
