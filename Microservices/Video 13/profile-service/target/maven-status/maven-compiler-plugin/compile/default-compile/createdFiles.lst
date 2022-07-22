@@ -1,0 +1,5 @@
+com\micro\rentcloud\profileservice\controller\ProfileController.class
+com\micro\rentcloud\profileservice\service\CustomerServiceImpl.class
+com\micro\rentcloud\profileservice\repository\CustomerRepository.class
+com\micro\rentcloud\profileservice\service\CustomerService.class
+com\micro\rentcloud\profileservice\ProfileServiceApplication.class
