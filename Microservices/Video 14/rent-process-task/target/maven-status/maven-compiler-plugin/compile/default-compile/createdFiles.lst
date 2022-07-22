@@ -1,0 +1,4 @@
+lk\codelabs\rentcloud\rentprocesstask\RentProcessTaskApplication.class
+lk\codelabs\rentcloud\rentprocesstask\services\RentProcessServiceImpl.class
+lk\codelabs\rentcloud\rentprocesstask\services\RentProcessTaskRunner.class
+lk\codelabs\rentcloud\rentprocesstask\services\RentProcessService.class
