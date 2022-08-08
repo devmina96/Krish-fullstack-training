@@ -1,0 +1,36 @@
+<div>
+    <div>
+        <button>Inquire</button>
+    </div>
+
+<div>
+    <form #orderForm="ngForm" (ngSubmit)="submitOrder(orderForm.value)">
+
+        
+        <label>ID</label>
+        <input type="text" name="Id" ngModel/>
+
+        <label>Type</label>
+        <select name="FualType" id="Fual" ngModel>
+            <option value="Petrol 92" selected>Petrol 92</option>
+            <option value="Petrol 95">Petrol 95</option>
+            <option value="Diesel">Diesel</option>
+            <option value="Super Diesel">Super Diesel</option>
+        </select>
+
+
+        <label>Capacity</label>
+            <select name="Capacity" id="Cap" ngModel>
+            <option value="3300">3300L</option>
+            <option value="6600" selected>6600L</option>
+            <option value="13200">13200L</option>
+            </select>
+
+            <button>Order</button>
+
+            <div>{{postid}}</div>
+    </form>
+</div>
+
+
+</div>
